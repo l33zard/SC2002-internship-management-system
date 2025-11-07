@@ -1,0 +1,27 @@
+# === Java & Build ===
+bin/
+out/
+target/
+*.class
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+.metadata/
+
+# === VS Code ===
+.vscode/
+
+# === IntelliJ ===
+.idea/
+*.iml
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Temp ===
+*.log
+*.tmp
+*.bak
