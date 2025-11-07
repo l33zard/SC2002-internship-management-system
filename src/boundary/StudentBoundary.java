@@ -1,14 +1,14 @@
 package boundary;
 
-import controller.StudentController;
 import controller.AuthController;
+import controller.StudentController;
+import entity.ApplicationStatus;
 import entity.Internship;
 import entity.InternshipApplication;
-import entity.ApplicationStatus;
 import entity.WithdrawalRequest;
 import entity.WithdrawalRequestStatus;
-import java.util.stream.Collectors;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StudentBoundary extends BaseBoundary {
     private final StudentController ctl;
