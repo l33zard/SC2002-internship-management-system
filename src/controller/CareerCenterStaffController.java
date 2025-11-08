@@ -1,18 +1,17 @@
 package controller;
 
+import database.ApplicationRepository;
+import database.CareerCenterStaffRepository;
 import database.CompanyRepRepository;
 import database.InternshipRepository;
-import database.ApplicationRepository;
 import database.WithdrawalRequestRepository;
-import database.CareerCenterStaffRepository;
+import entity.CareerCenterStaff;
 import entity.CompanyRep;
 import entity.Internship;
-import entity.InternshipStatus;
 import entity.InternshipLevel;
+import entity.InternshipStatus;
 import entity.WithdrawalRequest;
 import entity.WithdrawalRequestStatus;
-import entity.CareerCenterStaff;
-
 import java.util.ArrayList;
 import java.util.List;
 

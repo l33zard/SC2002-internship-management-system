@@ -202,6 +202,7 @@ public class StudentBoundary extends BaseBoundary {
 
     private void handleApplicationManagement(String studentId, InternshipApplication app) {
         while (true) {
+            app = ctl.getApplication(studentId, app.getApplicationId());
             displaySectionHeader("Application Details");
             System.out.println("Application ID: " + app.getApplicationId());
             System.out.println("Internship: " + app.getInternship().getTitle());
