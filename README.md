@@ -31,7 +31,13 @@ It was developed as part of the **SC2002 Object-Oriented Design & Programming** 
 
 ## Project Structure
 ```
-📦 Internship-Management-System
+Internship-Management-System
+|
+├── docs/
+│ ├──classDiagrams/ # Class Diagrams
+│ ├──sequenceDiagrams/ # Sequence Diagrams
+│ ├──javaDoc/ # Java doc report
+|
 ├── src/
 │ ├── app/ # Main entry point (Main.java)
 │ ├── boundary/ # User interface logic (CLI)
