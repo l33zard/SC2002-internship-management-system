@@ -6,7 +6,6 @@ import database.StudentRepository;
 import entity.CareerCenterStaff;
 import entity.CompanyRep;
 import entity.Student;
-
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
@@ -96,7 +95,7 @@ public class AuthController extends BaseController {
             return Role.STAFF + ":" + ost.get().getUserId();
         }
 
-        throw new IllegalArgumentException("Invalid login credentials. Please check your ID/email and password.");
+        throw new IllegalArgumentException("ID/Email does not exist, please check.");
     }
 
     public void changePassword(String loginKey, String oldPw, String newPw) {

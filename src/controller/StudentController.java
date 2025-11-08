@@ -5,11 +5,9 @@ import database.InternshipRepository;
 import database.StudentRepository;
 import database.WithdrawalRequestRepository;
 import entity.*;
-
 import java.time.LocalDate;
-import java.util.List;
-//import java.util.Objects;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class StudentController extends BaseController {
@@ -36,9 +34,10 @@ public class StudentController extends BaseController {
                 .collect(Collectors.toList());
         
         for (Internship internship : allInternships) {
-            if (appliedInternshipIds.contains(internship.getInternshipId())) {
-                eligibleInternships.add(internship);
-            } else if (internship.isOpenForApplications(LocalDate.now()) && 
+            // if (appliedInternshipIds.contains(internship.getInternshipId())) {
+            //     eligibleInternships.add(internship);
+            // } else 
+            if (internship.isOpenForApplications(LocalDate.now()) && 
                        internship.isVisible() && 
                        s.isEligibleFor(internship.getLevel())) {
                 eligibleInternships.add(internship);

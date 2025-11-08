@@ -48,12 +48,12 @@ It was developed as part of the **SC2002 Object-Oriented Design & Programming** 
 
 ## Team Members
 
-| **Name**        | **GitHub Profile** | **Email Address** |
-|-----------------|--------------------|-------------------|
-| Lee Xun         | [![GitHub Badge](https://img.shields.io/badge/l33zard-%23181717?logo=github)](https://github.com/l33zard) | xlee065@e.ntu.edu.sg |
-| Matthias Kwan   | [![GitHub Badge](https://img.shields.io/badge/holuuu17-%23181717?logo=github)](https://github.com/holuuu17) | matt0076@e.ntu.edu.sg |
-| Fong Yee Xin    | [![GitHub Badge](https://img.shields.io/badge/nixE911-%23181717?logo=github)](https://github.com/nixE911) | yfong009@e.ntu.edu.sg |
-| Daniel Law      | [![GitHub Badge](https://img.shields.io/badge/Leinad0200-%23181717?logo=github)](https://github.com/Leinad0200) | dlaw003@e.ntu.edu.sg |
+| **Name**             | **GitHub Profile** | **Email Address** |
+|----------------------|--------------------|-------------------|
+| Lee Xuan             | [![GitHub Badge](https://img.shields.io/badge/l33zard-%23181717?logo=github)](https://github.com/l33zard) | xlee065@e.ntu.edu.sg |
+| Matthias Lim Jun Yan | [![GitHub Badge](https://img.shields.io/badge/holuuu17-%23181717?logo=github)](https://github.com/holuuu17) | matt0076@e.ntu.edu.sg |
+| Fong Yee Xin         | [![GitHub Badge](https://img.shields.io/badge/nixE911-%23181717?logo=github)](https://github.com/nixE911) | yfong009@e.ntu.edu.sg |
+| Law Jun Wei, Daniel  | [![GitHub Badge](https://img.shields.io/badge/Leinad0200-%23181717?logo=github)](https://github.com/Leinad0200) | dlaw003@e.ntu.edu.sg |
 
 ---
 

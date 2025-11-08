@@ -59,7 +59,7 @@ public class StudentBoundary extends BaseBoundary {
         
         if (internships.isEmpty()) {
             System.out.println("No internships available that match your profile.");
-            System.out.println("Check back later for new opportunities!");
+            System.out.println("Check back later for new opportunities.");
             return;
         }
 
@@ -260,8 +260,7 @@ public class StudentBoundary extends BaseBoundary {
         }
     }
 
-    /* ---------- My Withdrawal Requests (NEW SUB-MENU) ---------- */
-    /* ---------- My Withdrawal Requests (NEW SUB-MENU) ---------- */
+    /* ---------- My Withdrawal Requests (SUB-MENU) ---------- */
     private void handleMyWithdrawalRequests(String studentId) {
         while (true) {
             List<WithdrawalRequest> allWithdrawals = ctl.viewMyWithdrawalRequests(studentId);
