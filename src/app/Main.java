@@ -5,7 +5,7 @@ import controller.*;
 import database.*;
 
 public class Main {
-    @SuppressWarnings({"UseSpecificCatch", "CallToPrintStackTrace"})
+//    @SuppressWarnings({"UseSpecificCatch", "CallToPrintStackTrace"})
     public static void main(String[] args) {
         // Use consistent relative paths
         String dataDir = "src/data/";

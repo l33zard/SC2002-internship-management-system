@@ -8,7 +8,6 @@ import entity.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StudentController extends BaseController {
 
@@ -29,14 +28,7 @@ public class StudentController extends BaseController {
         List<Internship> allInternships = internshipRepo.findAll();
         List<Internship> eligibleInternships = new ArrayList<>();
         
-        List<String> appliedInternshipIds = applicationRepo.findByStudent(studentId).stream()
-                .map(app -> app.getInternship().getInternshipId())
-                .collect(Collectors.toList());
-        
         for (Internship internship : allInternships) {
-            // if (appliedInternshipIds.contains(internship.getInternshipId())) {
-            //     eligibleInternships.add(internship);
-            // } else 
             if (internship.isOpenForApplications(LocalDate.now()) && 
                        internship.isVisible() && 
                        s.isEligibleFor(internship.getLevel())) {
