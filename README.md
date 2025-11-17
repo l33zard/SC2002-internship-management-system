@@ -17,7 +17,7 @@
 <a href="#project-structure">Project Structure</a> &nbsp;&bull;&nbsp;
 <a href="#team-members">Team Members</a> &nbsp;&bull;&nbsp;
 <a href="#features">Features</a> &nbsp;&bull;&nbsp;
-<a href="#getting-started">Getting Started</a>
+<a href="#getting-started">Getting Started</a> &nbsp;&bull;&nbsp;
 <a href="#java-doc-documentation"> Steps to launch Java Doc</a>
 </p>
 </div>
@@ -160,6 +160,7 @@ xdg-open javadoc/index.html
 
 ### Or Just Double-Click
 Navigate to the `javadoc` folder and double-click `index.html`
+
 
 
 
