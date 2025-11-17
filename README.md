@@ -3,14 +3,14 @@
 <div align="center">
 <p>SC2002 Object-Oriented Design & Programming | AY2025/26 Semester 1</p>
 
-[![Javadoc Badge](https://img.shields.io/badge/Javadoc-F8981D?style=for-the-badge&logo=readthedocs&logoColor=FFFFFF&logoSize=auto&labelColor=222222)](https://github.com/l33zard/SC2002-internship-management-system/tree/d2517b134e6a113662e90ba52453f090dead4640/docs/javaDoc)
+[![Javadoc Badge](https://img.shields.io/badge/Javadoc-F8981D?style=for-the-badge&logo=readthedocs&logoColor=FFFFFF&logoSize=auto&labelColor=222222)]([https://github.com/l33zard/SC2002-internship-management-system/tree/d2517b134e6a113662e90ba52453f090dead4640/docs/javaDoc](https://github.com/l33zard/SC2002-internship-management-system/tree/ea5fab30218bc469b1094fd1f3984b9f607bf142/docs/javaDoc))
 &nbsp;
 [![Class Diagrams Badge](https://img.shields.io/badge/Class%20Diagrams-C2F0C0?style=for-the-badge&logo=diagramsdotnet&logoColor=FFFFFF&logoSize=auto&labelColor=222222)](https://github.com/l33zard/SC2002-internship-management-system/tree/d2517b134e6a113662e90ba52453f090dead4640/docs/classDiagrams)
 &nbsp;
-[![Sequence Diagrams Badge](https://img.shields.io/badge/Sequence%20Diagrams-FFF6B6?style=for-the-badge&logo=miro&logoSize=auto&labelColor=222222)](https://github.com/l33zard/SC2002-internship-management-system/tree/d2517b134e6a113662e90ba52453f090dead4640/docs/sequenceDiagrams)
+[![Sequence Diagrams Badge](https://img.shields.io/badge/Sequence%20Diagrams-FFF6B6?style=for-the-badge&logo=miro&logoSize=auto&labelColor=222222)]([https://github.com/l33zard/SC2002-internship-management-system/tree/d2517b134e6a113662e90ba52453f090dead4640/docs/sequenceDiagrams](https://github.com/l33zard/SC2002-internship-management-system/tree/ea5fab30218bc469b1094fd1f3984b9f607bf142/docs/sequenceDiagrams))
 
 
-👆 Click the buttons above to view documentation and diagrams 👆
+~ Click the buttons above to view documentation and diagrams ~
 
 <p align="center">
 <a href="#introduction">Introduction</a> &nbsp;&bull;&nbsp;
@@ -160,6 +160,7 @@ xdg-open javadoc/index.html
 
 ### Or Just Double-Click
 Navigate to the `javadoc` folder and double-click `index.html`
+
 
 
 
