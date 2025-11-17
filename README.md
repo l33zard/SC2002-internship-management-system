@@ -35,22 +35,24 @@ It was developed as part of the **SC2002 Object-Oriented Design & Programming** 
 Internship-Management-System
 |
 ├── docs/
-│ ├──classDiagrams/ # Class Diagrams
-│ ├──sequenceDiagrams/ # Sequence Diagrams
-│ └──javaDoc/ # Java doc report
+│ ├── classDiagrams/ # Class Diagrams
+│ ├── sequenceDiagrams/ # Sequence Diagrams
+│ └── javaDoc/ # Java doc relevant files
+│  └── index.html # Entry point for Java Doc
 |   
-|
 ├── src/
 │ ├── app/ # Main entry point (Main.java)
 │ ├── boundary/ # User interface logic (CLI)
 │ ├── controller/ # Application logic and flow control
+│ ├── data/ # CSV files or seed data
 │ ├── database/ # Repositories for persistent data handling
 │ ├── entity/ # Core classes and enumerations
-│ ├── util/ # Utility classes and helpers
-│ ├── data/ # CSV files or seed data
+│ └── util/ # Utility classes and helpers
 │
+├── .gitattributes
 ├── .gitignore
 ├── README.md
+└── package-lock.json
 ```
 ---
 
