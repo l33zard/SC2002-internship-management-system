@@ -18,6 +18,7 @@
 <a href="#team-members">Team Members</a> &nbsp;&bull;&nbsp;
 <a href="#features">Features</a> &nbsp;&bull;&nbsp;
 <a href="#getting-started">Getting Started</a>
+<a href="#java-doc-documentation"> Steps to launch Java Doc</a>
 </p>
 </div>
 
@@ -36,7 +37,8 @@ Internship-Management-System
 ├── docs/
 │ ├──classDiagrams/ # Class Diagrams
 │ ├──sequenceDiagrams/ # Sequence Diagrams
-│ ├──javaDoc/ # Java doc report
+│ └──javaDoc/ # Java doc report
+|   
 |
 ├── src/
 │ ├── app/ # Main entry point (Main.java)
@@ -133,6 +135,32 @@ For PowerShell:
 ```powershell
 Get-ChildItem -Recurse -Filter *.java -Path .\src | ForEach-Object { javac -d .\bin $_.FullName }; ja
 ```
+
+---
+
+## Java Doc Documentation 
+
+The Java Doc documentation can be found under the "docs/javadoc"folder.
+You can access it by executing:
+
+### Windows
+```bash
+start javadoc\index.html
+```
+
+### Mac
+```bash
+open javadoc/index.html
+```
+
+### Linux
+```bash
+xdg-open javadoc/index.html
+```
+
+### Or Just Double-Click
+Navigate to the `javadoc` folder and double-click `index.html`
+
 
 
 
