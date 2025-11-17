@@ -159,7 +159,8 @@ xdg-open javadoc/index.html
 ```
 
 ### Or Just Double-Click
-Navigate to the `javadoc` folder and double-click `index.html`
+Navigate to the `javaDoc` folder and double-click `index.html`
+
 
 
 
