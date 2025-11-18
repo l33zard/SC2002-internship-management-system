@@ -16,7 +16,7 @@ package entity;
  * </ul>
  *
  */
-public abstract class User {
+public class User {
     protected String userId;
     protected String name;
     protected String password;
