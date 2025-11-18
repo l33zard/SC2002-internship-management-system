@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Base class for console UI boundaries providing common input/output helpers
  * and a reference to the {@link controller.AuthController} when available.
  * <p>
- * This abstract class serves as the foundation for all user interface boundaries
+ * This class serves as the foundation for all user interface boundaries
  * in the system, providing:
  * <ul>
  *   <li>Common input validation and parsing utilities</li>
@@ -21,7 +21,7 @@ import java.util.Scanner;
  * user interaction patterns throughout the application.
  * 
  */
-public abstract class BaseBoundary {
+public class BaseBoundary {
     /** Scanner instance for reading user input from standard input */
     protected final Scanner sc;
     
